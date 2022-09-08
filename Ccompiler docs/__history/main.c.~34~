@@ -1,0 +1,55 @@
+#include <16f887.h>
+#FUSES XT,NOPROTECT,NOWDT,NOBROWNOUT,PUT,NOLVP
+#use delay(clock=20M)
+#byte trisb=0x86
+#byte portb=0x06
+#byte trisc=0x87
+#byte portc=0x07
+
+Byte CONST display[15]= {
+00111111B          
+00000110B          
+01011011B          
+01001111B          
+01100110B          
+ 01101101B          
+01111101B          
+00000111B          
+01111111B          
+ 01101111B          
+ 01110111B          
+ 01111100B          
+00111001B          
+ 01011110B          
+01111001B          
+ 01110001B          
+
+};
+int a=0;
+int b=0;
+int c =0;
+
+void main(){
+trisb=0;
+portb=0;
+trisc=0;
+portc=0;
+
+   while(TRUE)
+   {
+   for (b=0; b<=255; b++){
+   delay_ms(250);
+   portb=b;
+   portc=b;
+   }
+   }
+   
+    /*for(a=0; a<=255; a++){
+   delay_ms(250);
+   portb=a;
+   }
+   */
+  
+   
+
+}

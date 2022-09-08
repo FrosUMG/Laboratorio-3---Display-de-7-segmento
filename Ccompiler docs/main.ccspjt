@@ -1,0 +1,62 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F887
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[C:\Users\Jose Cabrera\Desktop\Laboratorio3 Arqui\Ccompiler docs\main]
+Type=4
+[mru-list]
+1=main.c
+
+[ProjectLog]
+Days=2
+D1=05-09-2022
+D1_L=10
+D1_L1=[77025]Project Opened.
+D1_L2=[77036]Started Editing.
+D1_L3=[78171]Stopped Editing.
+D1_L4=[78354]Started Editing.
+D1_L5=[78929]Stopped Editing.
+D1_L6=[78988]Started Editing.
+D1_L7=[79255]Project Opened.
+D1_L8=[80014]Started Editing.
+D1_L9=[80506]Stopped Editing.
+TotalEdit=4
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L10=[81653]Project Closed.
+D2=07-09-2022
+D2_L=18
+D2_L1=[56798]Project Opened.
+D2_L2=[58636]Started Editing.
+D2_L3=[59677]Stopped Editing.
+D2_L4=[60207]Started Editing.
+D2_L5=[60729]Stopped Editing.
+D2_L6=[61615]Started Editing.
+D2_L7=[63201]Stopped Editing.
+D2_L8=[63343]Started Editing.
+D2_L9=[63753]Stopped Editing.
+D2_L10=[63774]Started Editing.
+D2_L11=[64138]Stopped Editing.
+D2_L12=[64313]Started Editing.
+D2_L13=[64622]Stopped Editing.
+D2_L14=[64627]Started Editing.
+D2_L15=[64927]Stopped Editing.
+D2_L16=[65101]Started Editing.
+D2_L17=[65405]Stopped Editing.
+D2_L18=[66286]Started Editing.
+
+[Opened Files]
+1=main.c
+2=
+[main.c]
+Type=4
+[Units]
+Count=1
+1=main (main)
